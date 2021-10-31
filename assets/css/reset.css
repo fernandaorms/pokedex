@@ -1,0 +1,24 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ body {
+   background: var(--preto);
+   font-family: 'Open Sans', sans-serif;
+   color: var(--branco);
+ }
+ ol, ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+a{
+   text-decoration: none;
+}
+
+input{
+   border: none;
+   text-decoration: none;
+}

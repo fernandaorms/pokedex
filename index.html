@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" href="assets/img/pokebola-logo.png">
+  <link rel="stylesheet" href="assets/css/index.css">
+
+  <title>Pokedex</title>
+</head>
+<body>
+
+
+   <header class="head">
+      
+      <div class="head-logo">
+         <img src="/assets/img/Pokémon_logo.svg" class="head__img" alt="Logo Pokemon">
+      </div>
+
+      <div class="head-content">
+         <input list="list-options" placeholder="Digite o nome ou nº do pokemon..." id="input" class="head__input" >
+         <datalist id="list-options" class="head__data">
+         </datalist>
+      </div>
+
+   </header>
+
+  <main class="main">
+      <h1 id="pokeName">-</h1>
+    
+      <div class="container">
+         <div class="main-image">
+         <img src="https://via.placeholder.com/150x150" alt="Pokemon" class="" id="pokeImage" />
+         </div>
+         
+         <div class="main-content">
+            <ul  class="main__ul">
+               <li class="">
+                  <strong class="">Nº:</strong>
+               <span  class="" id="pokeId">-</span>
+               </li>
+               <li class="">
+                  <strong class="">Tipo:</strong>
+                  <span  class="" id="pokeTypes">-</span>
+               </li>
+               <li class="">
+                  <strong class="">Altura:</strong>
+                  <span  class="" id="pokeHeight">-</span>
+               </li>
+               <li class="">
+                  <strong class="">Peso:</strong>
+                  <span  class="" id="pokeWeight">-</span>
+               </li>
+               <li class="">
+                  <strong class="">Habilidades:</strong>
+                  <span class="text-warning" id="pokeAbilities">-</span>
+               </li>
+            </ul>
+         </div>
+      </div>
+  </main>
+
+  <footer class="foot">
+      <p class="foot__p">Essa aplicação usa 
+         <a href="https://pokeapi.co/" target="_blank" title="Abrir pokeapi.co" rel="noreferrer" class="foot__link">
+            Pokeapi.co
+         </a>
+      </p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a516c8499c.js" crossorigin="anonymous"></script>
+  <script src="assets/js/pokemonService.js"></script>
+  <script src="assets/js/pokemon.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
